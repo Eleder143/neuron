@@ -20,7 +20,7 @@ def save_image_with_number(number):
     time.sleep(0.5)
     
     # Enter the desired file name (you may need to adjust these coordinates)
-    pyautogui.write(f"four_{number}.png")
+    pyautogui.write(f"4_{number+100}.png")
     
     # Press Enter to save the image
     pyautogui.press('enter')
